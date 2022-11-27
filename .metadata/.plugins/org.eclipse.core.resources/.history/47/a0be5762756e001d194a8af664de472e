@@ -1,0 +1,11 @@
+package task;
+
+import java.util.HashMap;
+
+public class User {
+	
+	private String name;
+	private int timestamp;
+	private HashMap<String,String> values = new HashMap<String,String>();
+
+}

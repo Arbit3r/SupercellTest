@@ -1,0 +1,57 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class User {
+	
+	private String name;
+	private int timestamp;
+	private HashMap<String,String> values = new HashMap<String,String>();
+	private HashMap<String,String> friends = new HashMap<String,String>();
+	
+	public User(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getTimestamp() {
+		return timestamp;
+	}
+
+	public void setTimestamp(int timestamp) {
+		this.timestamp = timestamp;
+	}
+
+	public HashMap<String, String> getValues() {
+		return values;
+	}
+
+	public void setValues(String id,String value) {
+		values.put(id, value);
+	}
+
+	public ArrayList<String> getFriends() {
+		return friends;
+	}
+
+	public void setFriends(String name) {
+		friends.add(name);
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

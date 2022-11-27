@@ -1,0 +1,7 @@
+1.Navigate to my.jar file directory
+2.Running
+Put the following command in terminal.
+java -jar my.jar -i <input_file>
+
+Anwser to solution:
+Tried to make something that works in some level.

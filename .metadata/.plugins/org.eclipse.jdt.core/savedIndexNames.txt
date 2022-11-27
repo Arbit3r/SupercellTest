@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\rikuk\Documents\supercellTask\.metadata\.plugins\org.eclipse.jdt.core
+3926470453.index
+3664593980.index
+280525323.index
+1865797976.index
+3806254462.index

@@ -1,0 +1,10 @@
+package task;
+
+import java.util.ArrayList;
+
+public class BroadCast {
+	
+	private ArrayList<String> broadcast = new ArrayList<String>();
+	private String user;
+
+}

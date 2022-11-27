@@ -1,0 +1,20 @@
+package task;
+
+import java.util.Iterator;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		System.out.println(args[1]);
+		if(args[0] == "-i" && args[1] != null) {
+			
+			State test = new State(args[1]);
+			test.start();
+			
+		}
+		
+
+	}
+
+}

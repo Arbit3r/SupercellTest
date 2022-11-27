@@ -1,0 +1,12 @@
+package task;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		State test = new State();
+		test.Get();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class BroadCast {
+	
+	private ArrayList<String> broadcast = new ArrayList<String>();
+	private String user;
+	private int timestamp;
+	private HashMap<String, String> values = new HashMap<String, String>();
+	
+	
+
+}

@@ -1,0 +1,24 @@
+package task;
+
+import java.util.Iterator;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		State test = new State();
+		State test2 = new State();
+		State test3 = new State();
+		test.start();
+		test2.start();
+		test3.start();
+		
+		Iterator<String> iterator = test.players.keySet().iterator();
+		while (iterator.hasNext()) {
+			String key = iterator.next();
+			System.out.println(key + test.players.get(key).getValues());
+		}
+
+	}
+
+}
